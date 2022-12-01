@@ -1,0 +1,145 @@
+.head{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Paytone One';
+    margin-top:60px;
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+    box-shadow: rgb(49, 91, 136) 0px 20px 30px -10px;
+
+    box-sizing: border-box;
+    margin: 0;
+    block-size: 100%;
+    background: hsl(200 50% 50%);
+    color: hsl(200 50% 90%);
+    font-size: 2.5rem;
+    color: white;
+    min-block-size: 80%;
+    font-family: 'Fugaz One', cursive;
+    
+    display: grid;
+    place-content: center;
+    padding: 5vmin;
+}
+
+body{
+    background-color: #244D61;
+    /* border: 20px solid rgb(242, 255, 0); */
+    border-radius: 23px;
+    /* box-shadow: 0px 0px 30px 30px rgba(10, 77, 222, 0.5); */
+}
+
+
+.content{
+    display: flex;
+    width:500px;
+    scroll-snap-type: x mandatory;
+    scroll-padding:25px;
+    column-gap: 20px;
+    margin-top:150px;
+    margin-left:590px;
+    font-family: "Comic Sans MS";
+    color: white;
+    font-size: 20px;
+}
+
+.card{
+    flex: 0 0 60%;
+    padding:20px;
+    scroll-snap-align:start;
+    border-radius:30px;
+    border:5px solid #0dd6f1
+}
+
+#gluten_free{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#gluten_free:hover{
+    box-shadow: rgba(6, 34, 248, 0.959) 0px 22px 70px 4px;
+    cursor: pointer;
+    border:5px solid #f10d0d
+}
+
+
+.card:nth-child(1) {
+    background: linear-gradient(-200deg, rgb(248, 130, 11),rgb(106, 248, 11),rgb(248, 130, 11));
+}
+
+
+div.what_is_gluten_free_diet h1{
+    color:#00de0f;
+    font-size: 60px;
+    text-shadow: 4px 4px 4px #000;
+}
+
+div.what_is_gluten_free_diet h2{
+    color:#00de0f;
+    font-size:45px;
+}
+
+.what_is_gluten_free_diet{
+    padding: 7em;
+}
+
+p{
+    color: white;
+    font-size:1.5em;
+    /* line-height: 20px; */
+    line-height:1.2em;
+    margin-bottom:0.3em;
+    display: inline-block;
+}
+
+b{
+    text-shadow: 1px 1px 1px #000;
+}
+
+div.what_is_gluten_free_diet img{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 30px;
+}
+
+
+iframe{
+    margin-left:24px;
+    margin-top:15px;
+}
+
+#diet{
+    color: #42ee0d;
+}
+
+.videos_head{
+    text-align: center;
+    margin-top: -20px;
+    /* box-shadow: rgba(10, 125, 239, 0.918) 0px 8px 24px; */
+    font-size: 25px;
+    font-family: "Bodoni MT Black";
+    color: white;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    /* font-size:17px; */
+    font-size:1.2em;
+    /* line-height: 20px; */
+    line-height:1.2em;
+    margin-bottom:0em;   
+}
+
+h3{
+    color: rgb(13, 249, 249);
+    font-size:28px;
+    font-weight: bold;
+}
+
+
+iframe{
+    margin-left:24px;
+    margin-top:15px
+}
+
+
+#diet{
+    color: #42ee0d;
+}
