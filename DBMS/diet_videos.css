@@ -1,0 +1,57 @@
+.head{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Paytone One';
+    margin-top:60px;
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+    box-shadow: rgb(49, 91, 136) 0px 20px 30px -10px;
+
+    box-sizing: border-box;
+    margin: 0;
+    block-size: 100%;
+    background: hsl(200 50% 50%);
+    color: hsl(200 50% 90%);
+    font-size: 2.5rem;
+    color: white;
+    min-block-size: 80%;
+    font-family: 'Fugaz One', cursive;
+    
+    display: grid;
+    place-content: center;
+    padding: 5vmin;
+}
+
+body{
+    background-color: #244D61;
+    /* border: 20px solid rgb(242, 255, 0); */
+    border-radius: 23px;
+    /* box-shadow: 0px 0px 30px 30px rgba(10, 77, 222, 0.5); */
+}
+
+.videos_head{
+    text-align: center;
+    margin-top: 150px;
+    /* box-shadow: rgba(10, 125, 239, 0.918) 0px 8px 24px; */
+    font-size: 25px;
+    font-family: "Bodoni MT Black";
+    color: white;
+}
+
+#diet{
+    color: #42ee0d;
+}
+
+iframe{
+    margin-left:27px;
+    margin-top:57px;
+    border-radius: 30px;
+    box-shadow: rgb(21, 139, 175) 0px 54px 55px, rgba(166, 2, 255, 0.95) 0px -12px 30px, rgb(9, 255, 157) 0px 4px 6px, rgba(49, 238, 7, 0.972) 0px 12px 13px, rgb(228, 252, 8) 0px -3px 5px;
+}
+
+iframe:hover{
+    box-shadow: rgb(25, 215, 11) 0px 54px 55px, rgba(2, 154, 255, 0.95) 0px -12px 30px, rgb(255, 9, 255) 0px 4px 6px, rgba(238, 7, 7, 0.972) 0px 12px 13px, rgb(61, 8, 252) 0px -3px 5px;
+}
+
+div.videos_head b{
+    text-shadow: 10px 10px 10px #000;
+} 
